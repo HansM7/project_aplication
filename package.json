@@ -12,8 +12,8 @@
     "install-servernobd": "npm --prefix ./server-fake-data/ i",
     "install-serversibd": "npm --prefix ./server/ i",
     "excute-install": "concurrently \"npm i\" \"npm run install-front\" \"npm run install-servernobd\" \"npm run install-serversibd\"",
-    "nobd": "concurrently \"npm run script1\" \"npm run script2\"",
-    "sibd": "concurrently \"npm run script1\" \"npm run script3\"",
+    "nobd": "concurrently \"npm run script1\" \"npm run script3\"",
+    "sibd": "concurrently \"npm run script1\" \"npm run script1\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
