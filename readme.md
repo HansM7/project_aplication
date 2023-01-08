@@ -40,8 +40,14 @@ npm run sibd
 npm run nobd
 ```
 
-#### No olvidar de instalar las dependencias de cada proyecto
+#### No olvidar de instalar las dependencias
 #
+##### Paso 1
+```sh
+npm i
+```
+#
+##### Paso 2
 ```sh
 npm run excute-install
 ```
