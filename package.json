@@ -1,0 +1,32 @@
+{
+  "name": "important",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "script1": "npm --prefix ./project/ run dev",
+    "script2": "npm --prefix ./server/ start",
+    "script3": "npm --prefix ./server-fake-data/ start",
+    "install-front": "npm --prefix ./project/ i",
+    "install-servernobd": "npm --prefix ./server-fake-data/ i",
+    "install-serversibd": "npm --prefix ./server/ i",
+    "excute-install": "concurrently \"npm i\" \"npm run install-front\" \"npm run install-servernobd\" \"npm run install-serversibd\"",
+    "nobd": "concurrently \"npm run script1\" \"npm run script2\"",
+    "sibd": "concurrently \"npm run script1\" \"npm run script3\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansM7/project_aplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansM7/project_aplication/issues"
+  },
+  "homepage": "https://github.com/HansM7/project_aplication#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
