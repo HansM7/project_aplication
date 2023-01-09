@@ -6,7 +6,6 @@ import UsersPage from "../pages/UsersPage"
 
 function AppRouting() {
   return (
-    <Router>
         <Routes>
             {/* <Route path="/login" element={<Login/>} /> */}
             {/* {/* <Route path="/register" element={<Register/>} />*/}
@@ -15,7 +14,6 @@ function AppRouting() {
             <Route path="/" element={<Index />} /> 
             <Route path="*" element={<Error404 />} />
         </Routes>
-    </Router>
   )
 }
 

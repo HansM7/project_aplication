@@ -9,7 +9,7 @@
 | Librería | Enlace |
 | ------ | ------ |
 | express | https://www.npmjs.com/package/express |
-| jwt | [plugins/github/README.md][PlGh] |
+| jwt | https://www.npmjs.com/package/jsonwebtoken |
 | mongoose | https://www.npmjs.com/package/mongoose |
 | dotenv | https://www.npmjs.com/package/dotenv |
 | uuid | https://www.npmjs.com/package/uuid |
